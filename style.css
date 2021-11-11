@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+h1
+{
+    font-family: Lobster;
+    text-align: center;
+    font-size: 50px;
+    color: #00524E;
+    border: 3px rgb(255, 255, 255);
+}
+h2
+{
+    font-family: Staatliches;
+    text-align: center;
+}
+.chessboard 
+{ 
+border-spacing: 0; border-collapse: collapse; 
+}
+.chessboard th 
+{ 
+padding: .5em; 
+}
+.chessboard td 
+{ 
+border: 1px solid; width: 2em; height: 2em; 
+}
+.chessboard .light 
+{ 
+background: #eee; 
+}
+.chessboard .dark 
+{ 
+background: #000; 
+}
